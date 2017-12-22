@@ -2533,7 +2533,7 @@
 		background-position: center center;
 		background-image: url("../../images/banner.jpg");
 		background-size: cover;
-		height: 28em;
+		height: 24em;
 		text-align: center;
 		position: relative;
 	}
@@ -2718,11 +2718,11 @@
 		/* Header */
 
 			#header {
-				padding: 2em 0 0 0;
+				padding: 1.5em 0 0 0;
 			}
 
 				#header h1 {
-					padding: 0 0 1.75em 0;
+					padding: 0 0 1em 0;
 				}
 
 		/* Banner */
