@@ -47,6 +47,35 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	
+/*Table Comodidades*/
+#tableComodidades  tr:nth-child(even){background-color: #f2f2f2;}
+#tableComodidades  tr:hover {background-color: #ddd;}
+#tableComodidades  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#tableComodidades {
+    font-size: 1em;
+	color: inherit;
+    font-weight: 500;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+    letter-spacing: -0.025em;
+    border-collapse: collapse;
+    width: 100%;
+	
+}
+
+#tableComodidades td, #tableComodidades th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
 
 /* Box Model */
 
