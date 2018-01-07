@@ -76,10 +76,22 @@
     padding: 8px;
 }
 
+/* Vegas Slider en Casa.html*/
+
 .slideCasaCss{
 	border-radius: 5px; 
 	height: 50vh;
 	
+}
+
+/*Items index.html*/
+.itemsIndex{
+	cursor:pointer;
+}
+
+.itemsIndexTitle:hover{
+	cursor:pointer;
+	color:blue;
 }
 
 /* Box Model */

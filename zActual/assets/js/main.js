@@ -97,11 +97,11 @@
 			//slide de seccion "Casa"
 			$("#slideCasa").vegas({
     				slides: [
-      		  { src: "images/frente_baja.jpg" },
-      		  { src: "images/im_2.jpg" },
-      		  { src: "images/im_3.jpg" },
-      		  { src: "images/im_4.jpg" },
-      		  { src: "images/im_5.jpg" }
+      		  { src: "images/Casa/im_1.jpg" },
+			  { src: "images/Casa/im_2.jpg" },
+			  { src: "images/Casa/im_3.jpg" },
+			  { src: "images/Casa/im_4.jpg" },
+			  { src: "images/Casa/im_5.jpg" }
     ]
 			});
 	});
