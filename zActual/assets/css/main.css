@@ -94,6 +94,18 @@
 	color:blue;
 }
 
+/*Imagenes galeria */
+.imgMini{
+	height: 20vh;
+	padding: 5px;
+}
+
+/* alto jarcodeo*/
+.bottomBorderWhite{
+	color: #FFF;
+	
+}
+
 /* Box Model */
 
 	*, *:before, *:after {

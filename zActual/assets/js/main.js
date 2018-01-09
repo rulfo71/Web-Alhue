@@ -104,6 +104,9 @@
 			  { src: "images/Casa/im_5.jpg" }
     ]
 			});
+			
+			// galeria de imagenes
+			$('#gallery').gallerie();
 	});
 
 })(jQuery);
