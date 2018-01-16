@@ -4,11 +4,27 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+var firstLoad=true;
+
 (function($) {
 	// Wait for window load
 	$(window).load(function() {
 		// Animate loader off screen
-		$(".se-pre-con").fadeOut(3000);;
+		if (firstLoad){
+			
+			$("#preloader").fadeOut(5000);
+			
+	/*		setTimeout(function(){
+			
+			$("#preloader").hide();
+
+			},2000);
+*/
+		    firstLoad=false;
+		
+
+		}
+		
 	});
 
 	skel.breakpoints({
