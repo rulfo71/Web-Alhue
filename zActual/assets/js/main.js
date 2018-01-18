@@ -10,19 +10,16 @@ var firstLoad=true;
 	// Wait for window load
 	$(window).load(function() {
 		// Animate loader off screen
-		if (firstLoad){
-			
-			$("#preloader").fadeOut(5000);
-			
-	/*		setTimeout(function(){
-			
+		if (firstLoad){			
+			$("#preloader").fadeOut(2000);			
+	/*		setTimeout(function(){			
 			$("#preloader").hide();
-
-			},2000);
-*/
-		    firstLoad=false;
-		
-
+			},2000);*/
+		    firstLoad=false;		
+		}
+		else{
+			
+			$("#preloader").hide(0);
 		}
 		
 	});
