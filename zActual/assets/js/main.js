@@ -81,30 +81,6 @@
 					$('#titleBar, #navPanel, #page-wrapper')
 						.css('transition', 'none');
 				
-			// Slide del home, pagina principal
-				
-				$("#slide").vegas({
-    				slides: [
-      		  { src: "images/banner.jpg" },
-      		  { src: "images/im_1.jpg" },
-      		  { src: "images/im_2.jpg" },
-      		  { src: "images/im_3.jpg" },
-      		  { src: "images/im_4.jpg" },
-      		  { src: "images/im_5.jpg" }
-    ]
-			});
-			
-			//slide de seccion "Casa"
-			$("#slideCasa").vegas({
-    				slides: [
-      		  { src: "images/Casa/im_1.jpg" },
-			  { src: "images/Casa/im_2.jpg" },
-			  { src: "images/Casa/im_3.jpg" },
-			  { src: "images/Casa/im_4.jpg" },
-			  { src: "images/Casa/im_5.jpg" }
-    ]
-			});
-			
 			// galeria de imagenes
 			$('#gallery').gallerie();
 
