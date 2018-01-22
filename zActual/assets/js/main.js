@@ -81,7 +81,6 @@
 					$('#titleBar, #navPanel, #page-wrapper')
 						.css('transition', 'none');
 				
-			// galeria de imagenes
-			$('#gallery').gallerie();
+
 
 })(jQuery);
